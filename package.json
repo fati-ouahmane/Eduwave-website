@@ -7,8 +7,9 @@
     "start": "node main.js",
     "dev": "vite",
     "build": "vite build",
+   
     "preview": "vite preview",
-    "deploy" : "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "events": "^3.3.0",
@@ -19,6 +20,7 @@
     "@ashthornton/asscroll": "^2.0.11",
     "gh-pages": "^4.0.0",
     "lil-gui": "^0.17.0",
+    "surge": "^0.23.1",
     "three": "^0.143.0"
   },
   "main": "main.js",
